@@ -16,7 +16,7 @@
             </div>
         </div>
     </section>
-    <!-- JavaScript -->
+    <!-- JavaScript Logic Happy Christmas -->
     <script>
         function bubbles() {
             var count = 200;
@@ -24,9 +24,9 @@
             var i = 0;
             while (i < count) {
                 var bubble = document.createElement('i');
-                var x = Math.floor(Math.random() * window.innerWidth);
-                var y = Math.floor(Math.random() * window.innerHeight);
-
+                var x = Math.floor(Math.random() * window.innerWidth);  // Objeto Math no Javascript que nos permite fazer operações matemáticas
+                var y = Math.floor(Math.random() * window.innerHeight); // Math.random() - Gera um número aleatório entre zero 0 e 1
+                                                                        // Math.floor() - Arrendonda X para o inteiro abaixo
                 var size = Math.random() * 10;
                 bubble.style.left = x+'px';
                 bubble.style.top = y+'px';
